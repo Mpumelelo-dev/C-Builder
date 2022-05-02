@@ -1,0 +1,46 @@
+object frmLookupDetails: TfrmLookupDetails
+  Left = 0
+  Top = 0
+  BorderWidth = 5
+  Caption = 'Lookup'
+  ClientHeight = 279
+  ClientWidth = 702
+  Color = 1474884
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 702
+    Height = 279
+    Align = alClient
+    BorderWidth = 5
+    Caption = 'Panel1'
+    TabOrder = 0
+    ExplicitWidth = 494
+    object lstLookupDetails: TListBox
+      Left = 6
+      Top = 6
+      Width = 690
+      Height = 267
+      Align = alClient
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ItemHeight = 14
+      ParentFont = False
+      TabOrder = 0
+      TabWidth = 20
+      ExplicitWidth = 488
+    end
+  end
+end
